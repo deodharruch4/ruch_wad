@@ -1,0 +1,109 @@
+body {
+    background-color: #1E293B;
+    background-image: url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+    background-size: 200px;
+    color: #E5E7EB;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    background-color: #334155;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #3B82F6;
+}
+
+label {
+    display: block;
+    margin: 8px 0 4px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #475569;
+    color: #E5E7EB;
+}
+
+button {
+    width: 100%;
+    background-color: #3B82F6;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #2563EB;
+}
+
+.user-list-btn, .back-btn {
+    background-color: #FACC15;
+    color: #000;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.table-container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    background-color: #1E293B;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid #3B82F6;
+}
+
+thead {
+    background-color: #3B82F6;
+    color: #fff;
+}
+
+th, td {
+    padding: 12px 16px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #2D3748;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #475569;
+}
+
+td {
+    max-width: 180px;
+    word-break: break-word;
+}
